@@ -1,0 +1,113 @@
+/* Reset some default styles for consistency */
+body, header, nav, ul, li, section, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the header (navbar) */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Replace with your preferred color or use Figma color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    z-index: 1000; /* Ensure the header appears above other content */
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 1rem;
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333333; /* Replace with your preferred color or use Figma color */
+  }
+  
+  /* Style the hero section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #f0f0f0, #ffffff); /* Replace with your preferred gradient or use Figma gradient */
+    padding: 4rem;
+  }
+  
+  .hero-text {
+    width: 50%;
+  }
+  
+  .hero-image {
+    width: 50%;
+  }
+  
+  /* Style the latest blogs section */
+  .latest-blogs {
+    padding: 4rem;
+  }
+  
+  .blog-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .blog-image {
+    width: 30%;
+  }
+  
+  .blog-content {
+    width: 60%;
+  }
+  
+  /* Style the more blogs section */
+  .more-blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+  }
+  
+  .blog-item {
+    width: 30%;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style the footer */
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0; /* Replace with your preferred color or use Figma color */
+    padding: 4rem;
+  }
+  
+  .footer-button button {
+    background-color: #ff0000; /* Replace with your preferred color or use Figma color */
+    color: #ffffff; /* Replace with your preferred color or use Figma color */
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add any other custom styles needed to match the Figma design */
+  
